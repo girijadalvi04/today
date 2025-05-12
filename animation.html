@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            border: 1px solid black;
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            animation-name: welcome;
+            animation-duration: 6s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 3;
+            /* animation-direction: alternate-reverse; */
+            /* animation-play-state: paused; */
+
+            position: relative;
+
+        }
+
+        @keyframes welcome {
+            /* to{background-color: aqua;}
+           from{background-color: blueviolet;} */
+            /* 
+           0%{background-color: aqua;}
+           25%{background-color: aliceblue;}
+           45%{background-color: aquamarine;}
+           65%{background-color: blueviolet;}
+           85%{background-color: darkblue;}
+           100%{background-color: cadetblue;} */
+
+
+
+            0% {
+                background-color: aqua;
+                top: 0;
+                left: 0;
+            }
+
+           100% {
+                background-color: aliceblue;
+                left: 500px;
+                top: 0
+            }
+
+            /* 45% {
+                background-color: aquamarine;
+                left: 200px;
+                top: 200px;
+            }
+
+            65% {
+                background-color: blueviolet;
+            left: 0;
+            top: 200px;
+            }
+
+            85% {
+                background-color: darkblue;
+                left: 0;
+                top: 0;
+            } */
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p>ANIMATION PROPERTY</p> -->
+     <img src="imgg.jpg" alt="">
+</body>
+
+</html>
